@@ -4,19 +4,21 @@
 
 <template>
   
-
+  <v-app>
     <div class="header">
     <span class="title">TripSuggestion.com</span>
   </div>
   <div class="main-banner">
     <h1>FIND YOUR PERFECT TRIP!</h1>
     <div class="buttons">
-      
-      <v-btn variant="outlined">
+
+        <v-btn variant="outlined">
+        <v-icon left dark>mdi-account</v-icon>
           Sign In
-      </v-btn>
+        </v-btn>
       
       <v-btn variant="outlined">
+        <v-icon left dark>mdi-account</v-icon>
           Register
       </v-btn>
       <v-btn variant="outlined">
@@ -30,7 +32,7 @@
         <ul>
           <li>
             <div class="col">
-              <img src="/Users/zeynep/vue-project/src/public/fethiye_ölü_deniz.jpeg" />
+              <img src="C:\Users\User\vue-project\src\public\fethiye-oludeniz.jpg" />
               <div class="col-content">
                 <h3 class="col-title">Fethiye Ölü Deniz/Antalya</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -39,7 +41,7 @@
           </li>
           <li>
             <div class="col">
-              <img src="/Users/zeynep/vue-project/src/public/duden-selalesi-antalya.jpeg" />
+              <img src="C:\Users\User\vue-project\src\public\duden-selalesi-antalya.jpeg" />
               <div class="col-content">
                 <h3 class="col-title">Düden Şelalesi/Antalya</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -48,7 +50,7 @@
           </li>
           <li>
             <div class="col">
-              <img src="/Users/zeynep/vue-project/src/public/aspedos-antik-tiyatrosu-antalya.jpeg" />
+              <img src="C:\Users\User\vue-project\src\public\aspedos-antik-tiyatrosu-antalya.jpeg" />
               <div class="col-content">
                 <h3 class="col-title">Aspendos Antik Tiyatro/Antalya</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -63,7 +65,7 @@
         <ul>
           <li>
             <div class="col">
-              <img src="/Users/zeynep/vue-project/src/public/kiz-kulesi-istanbul.webp" />
+              <img src="C:\Users\User\vue-project\src\public\kiz-kulesi.webp" />
               <div class="col-content">
                 <h3 class="col-title">Kız Kulesi/İstanbul</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -72,7 +74,7 @@
           </li>
           <li>
             <div class="col">
-              <img src="/Users/zeynep/vue-project/src/public/camlica-tepesi-istanbul.jpeg" />
+              <img src="C:\Users\User\vue-project\src\public\camlica-tepesi.jpg" />
               <div class="col-content">
                 <h3 class="col-title">Çamlıca Tepesi/İstanbul</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -81,7 +83,7 @@
           </li>
           <li>
             <div class="col">
-              <img src="/Users/zeynep/vue-project/src/public/ayasofya-camii-istanbul.jpg" />
+              <img src="C:\Users\User\vue-project\src\public\ayasofya-camii-istanbul.jpg" />
               <div class="col-content">
                 <h3 class="col-title">Ayasofya Cami/İstanbul</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -91,8 +93,11 @@
         
         </ul>
       </section>
+
+      
 <div class="footer"></div>
 
+</v-app>
 </template>
 
 
@@ -118,7 +123,7 @@
 
 .main-banner {
   text-align: center;
-  background: url('public/p1.jpeg') no-repeat center center;
+  background: url('C:\Users\User\vue-project\src\public\maldives6 - Kopya.jpg') no-repeat center center;
   background-size:cover
   ;
   color: white;
@@ -227,6 +232,22 @@ img{
    
 }
 
+
+#section-d{
+    margin-top: 190px;
+    margin-bottom: 190px;
+}
+#section-d ul{
+    list-style: none;
+    background-color: #56636F;
+}
+#section-d li{
+    background: #fff;
+    color:#56636F;
+    margin-bottom: 1.5rem;
+   
+}
+
 .col-content{
     padding:1.5rem;
 }
@@ -248,13 +269,18 @@ img{
     }
 
     #section-b li{
-        width:20%;
+        width:23%;
         margin:5%;
         display:inline-block;
     }
     #section-c li{
-        width:18%;
-        margin:1%;
+        width:23%;
+        margin:5%;
+        display:inline-block;
+    }
+    #section-d li{
+        width:23%;
+        margin:5%;
         display:inline-block;
     }
 
@@ -278,5 +304,9 @@ h2 .places{
  margin-left: 50px;
 }
 
+
+.v-icon {
+  color: black;
+}
 
 </style>
