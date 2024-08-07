@@ -35,9 +35,15 @@
               <img src="C:\Users\User\vue-project\src\public\fethiye-oludeniz.jpg" />
               <div class="col-content">
                 <h3 class="col-title">Fethiye Ölü Deniz/Antalya</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <div class="stars">
+                &#9733;&#9733;&#9733;&#9733;&#9733; <!-- 5 stars -->
               </div>
+              <p>TL-</p>
             </div>
+              <div class="heart-icon">&#10084;</div> <!-- Heart Icon -->
+            </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+  
           </li>
           <li>
             <div class="col">
@@ -158,8 +164,8 @@ body{
     font-family: "Nothing You Could Do", cursive;
     font-size:1.6rem;
     line-height: 1.5;
-    text-align:center;
-    background-color:#56636F;
+    text-align:center;  
+    background-color:#383f46;
     color:white;
 }
 a{
@@ -202,49 +208,55 @@ img{
     height:auto;
 }
 #section-b{
-    margin-top: 190px;
-    margin-bottom: 190px;
+    margin-top: 180px;
+    margin-bottom: 80px;
 }
 #section-b ul{
     list-style: none;
-    background-color: #56636F;
+    background-color: #383f46;
+    padding: 0 150px;
 }
 #section-b li{
     background: #fff;
-    color:#56636F;
+    color:#383f46;
     margin-bottom: 1.5rem;
+    position: relative;
    
 }
 
 
 #section-c{
-    margin-top: 190px;
-    margin-bottom: 190px;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 #section-c ul{
     list-style: none;
-    background-color: #56636F;
+    background-color: #383f46;
+    padding: 0 150px;
 }
 #section-c li{
     background: #fff;
-    color:#56636F;
+    color:#383f46;
     margin-bottom: 1.5rem;
+    position: relative;
    
 }
 
 
 #section-d{
-    margin-top: 190px;
-    margin-bottom: 190px;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 #section-d ul{
     list-style: none;
-    background-color: #56636F;
+    background-color: #383f46;
+    padding: 0 150px;
 }
 #section-d li{
     background: #fff;
-    color:#56636F;
+    color:#383f46;
     margin-bottom: 1.5rem;
+    position: relative;
    
 }
 
@@ -307,6 +319,24 @@ h2 .places{
 
 .v-icon {
   color: black;
+}
+
+
+.stars {
+  color: gold; /* Yıldızların rengi */
+  font-size: 1.5rem;
+}
+
+.heart-icon {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 2rem;
+  color: rgb(236, 106, 106);
+}
+
+.image-container {
+  position: relative;
 }
 
 </style>
